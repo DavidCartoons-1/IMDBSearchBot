@@ -593,7 +593,7 @@ def search(name, page):
 
     return {'result': result_to_send, 'count': count, 'button_links': button_links, 'titles': titles}
 
-bot = telepot.Bot("Your-Token")
+bot = telepot.Bot("5675189721:AAG3y8lI1R3HonH4vZWqD3rV5h9yvF7s34o")
 MessageLoop(bot, {'chat': on_chat_message,
                   'callback_query': on_callback_query}).run_as_thread()
 print('IMDb Searcher BOT Starting ...')
