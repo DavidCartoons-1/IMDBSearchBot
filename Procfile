@@ -1,1 +1,2 @@
-worker: python3 imbd
+worker: python3 imdb_search.py
+
